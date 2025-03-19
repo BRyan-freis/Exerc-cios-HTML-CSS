@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+
+div {
+    font-family: Arial;
+    background-color: beige;
+    color: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-family: Arial;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30px;
+    color: orange;
+    background-color: beige;
+    padding: 15px;
+}
+
+
+
+.Youtube {
+    font-family: Arial;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.png {
+    margin-left: 600px;
+    margin-right: 700px;
+    border-radius: 30px;
+}
+
+.Receitas {
+    background-color: beige;
+    padding: 15px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Arial;
+}

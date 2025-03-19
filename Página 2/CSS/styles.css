@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-family: Arial;
+    background-color: beige;
+    color: orange;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+div {
+    font-family: Arial;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: beige;
+    
+}
+
+h4 {
+    color: orange
+}
+
+a {
+    font-family: Arial;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: beige;
+    color: orange;
+}
