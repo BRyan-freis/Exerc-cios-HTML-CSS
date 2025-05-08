@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral */
+body, html {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('../IMG/BACK.jpg'); /* Insira o caminho correto da imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+  }
+  
+  /* Container principal */
+  .conteiner {
+    
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background:rgba(150, 144, 144, 0);
+    border-radius: 10px;
+    
+}
+  
+  /* Estilo dos títulos */
+  h1 {
+    font-family: Rubik Mono One;
+    font-size: 60px;
+    color: rgb(0, 0, 0)
+  }
+  
+  h2 {
+    font-family: Rubik Mono One;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-family: Rubik Mono One;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  /* Imagens */
+  img {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  
+  /* Texto */
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Seções */
+  .sinopse, .resume, .elenco {
+    padding: 15px;
+    background: #00000074;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: inherit;         
+    text-decoration: none;  
+    cursor: default;   
+    text-decoration: none; /* Remove o sublinhado */
+  color: inherit;     
+
+    
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: Rubik Mono One;
+    list-style: none;
+    text-decoration: none;
+  color: inherit;
+    
+
+}
